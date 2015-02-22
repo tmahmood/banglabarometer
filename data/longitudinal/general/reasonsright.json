@@ -1,0 +1,302 @@
+[
+    {
+        "key": "Education Improved",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 37
+            },
+            {
+                "label": "Jul 2013",
+                "value": 63
+            },
+            {
+                "label": "Oct 2013",
+                "value": 65
+            },
+            {
+                "label": "Nov 2013",
+                "value": 61
+            },
+            {
+                "label": "Jan 2014",
+                "value": 46
+            }
+        ]
+    },
+    {
+        "key": "Good Economy",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 28
+            },
+            {
+                "label": "Jul 2013",
+                "value": 24
+            },
+            {
+                "label": "Oct 2013",
+                "value": 33
+            },
+            {
+                "label": "Nov 2013",
+                "value": 45
+            },
+            {
+                "label": "Jan 2014",
+                "value": 38
+            }
+        ]
+    },
+    {
+        "key": "Controlled Commodities Prices",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 28
+            },
+            {
+                "label": "Jul 2013",
+                "value": 17
+            },
+            {
+                "label": "Oct 2013",
+                "value": 23
+            },
+            {
+                "label": "Nov 2013",
+                "value": 15
+            },
+            {
+                "label": "Jan 2014",
+                "value": 22
+            }
+        ]
+    },
+    {
+        "key": "Law & Order Improved",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 28
+            },
+            {
+                "label": "Jul 2013",
+                "value": 26
+            },
+            {
+                "label": "Oct 2013",
+                "value": 29
+            },
+            {
+                "label": "Nov 2013",
+                "value": 15
+            },
+            {
+                "label": "Jan 2014",
+                "value": 18
+            }
+        ]
+    },
+    {
+        "key": "Electricity Production",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": null
+            },
+            {
+                "label": "Jul 2013",
+                "value": null
+            },
+            {
+                "label": "Oct 2013",
+                "value": null
+            },
+            {
+                "label": "Nov 2013",
+                "value": null
+            },
+            {
+                "label": "Jan 2014",
+                "value": 17
+            }
+        ]
+    },
+    {
+        "key": "Increased Employment",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 15
+            },
+            {
+                "label": "Jul 2013",
+                "value": 10
+            },
+            {
+                "label": "Oct 2013",
+                "value": 15
+            },
+            {
+                "label": "Nov 2013",
+                "value": 17
+            },
+            {
+                "label": "Jan 2014",
+                "value": 16
+            }
+        ]
+    },
+    {
+        "key": "My Party is in Power",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 9
+            },
+            {
+                "label": "Jul 2013",
+                "value": 19
+            },
+            {
+                "label": "Oct 2013",
+                "value": 16
+            },
+            {
+                "label": "Nov 2013",
+                "value": 10
+            },
+            {
+                "label": "Jan 2014",
+                "value": 14
+            }
+        ]
+    },
+    {
+        "key": "Health Improvements",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 14
+            },
+            {
+                "label": "Jul 2013",
+                "value": 26
+            },
+            {
+                "label": "Oct 2013",
+                "value": 30
+            },
+            {
+                "label": "Nov 2013",
+                "value": 18
+            },
+            {
+                "label": "Jan 2014",
+                "value": 13
+            }
+        ]
+    },
+    {
+        "key": "War Crime Justice",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 17
+            },
+            {
+                "label": "Jul 2013",
+                "value": 11
+            },
+            {
+                "label": "Oct 2013",
+                "value": 30
+            },
+            {
+                "label": "Nov 2013",
+                "value": 5
+            },
+            {
+                "label": "Jan 2014",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "key": "Good Job / Income",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 5
+            },
+            {
+                "label": "Jul 2013",
+                "value": 8
+            },
+            {
+                "label": "Oct 2013",
+                "value": 11
+            },
+            {
+                "label": "Nov 2013",
+                "value": 7
+            },
+            {
+                "label": "Jan 2014",
+                "value": 9
+            }
+        ]
+    },
+    {       
+        "key": "Industry Increased",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 7
+            },
+            {
+                "label": "Jul 2013",
+                "value": 8
+            },
+            {
+                "label": "Oct 2013",
+                "value": 6
+            },
+            {
+                "label": "Nov 2013",
+                "value": 5
+            },
+            {
+                "label": "Jan 2014",
+                "value": 5
+            }
+        ]
+        },
+        {
+        "key": "Easy to Go Abroad",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 7
+            },
+            {
+                "label": "Jul 2013",
+                "value": 7
+            },
+            {
+                "label": "Oct 2013",
+                "value": 5
+            },
+            {
+                "label": "Nov 2013",
+                "value": 5
+            },
+            {
+                "label": "Jan 2014",
+                "value": 5
+            }
+        ]
+    }
+]

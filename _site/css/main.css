@@ -6,8 +6,7 @@
 
 /* Global Reset */
 body {
-    background-color: #fff;
-    background-image: url(../img/#.jpg);
+    background-image: url(../img/AfSurvBackground.jpg);
     min-width: 100%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -20,13 +19,12 @@ body {
     font-family: Lato; 
 }
 
-
 #logo {
     margin: 0 20 2 0;
 }
 
 
-a, h1, h2, h3, h4, h5, h6 { 
+a, h2, h3, h4, h5, h6 { 
     color: #afafaf;
     font-weight: 100;
 }
@@ -282,5 +280,123 @@ background-color: #000;
         margin-left: 30px;
         opacity: 0.85;
     }
+
+.nvtooltip {
+  position: absolute;
+  background-color: rgba(255,255,255,1.0);
+  padding: 1px;
+  border: 1px solid rgba(0,0,0,.2);
+  z-index: 10000;
+
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: left;
+  pointer-events: none;
+
+  white-space: nowrap;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Give tooltips that old fade in transition by
+    putting a "with-transitions" class on the container div.
+*/
+.nvtooltip.with-transitions, .with-transitions .nvtooltip {
+  transition: opacity 50ms linear;
+  -moz-transition: opacity 50ms linear;
+  -webkit-transition: opacity 50ms linear;
+
+  transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  -webkit-transition-delay: 200ms;
+}
+
+.nvtooltip.x-nvtooltip,
+.nvtooltip.y-nvtooltip {
+  padding: 8px;
+}
+
+.nvtooltip h3 {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 4px 4px;
+  line-height: 12px;
+  font-weight: normal;
+  background-color: #a8a8a8;
+  text-align: center;
+  color: #454444;
+
+  border-bottom: 1px solid #ebebeb;
+
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 1px 5px 0 0;
+}
+
+.nvtooltip p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700; 
+  margin: 0;
+  padding: 5px 14px;
+  text-align: center;
+}
+
+.nvtooltip span {
+  display: inline-block;
+  margin: 2px 0;
+}
+
+.nvtooltip table {
+  margin: 6px;
+  border-spacing:0;
+}
+
+
+.nvtooltip table td {
+  padding: 2px 9px 2px 0;
+  vertical-align: middle;
+}
+
+.nvtooltip table td.key {
+  font-weight:normal;
+}
+.nvtooltip table td.value {
+  text-align: right;
+  font-weight: bold;
+}
+
+.nvtooltip table tr.highlight td {
+  padding: 1px 9px 1px 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+.nvtooltip table td.legend-color-guide div {
+  width: 8px;
+  height: 8px;
+  vertical-align: middle;
+}
+
+.nvtooltip .footer {
+  padding: 3px;
+  text-align: center;
+}
+
+.nvtooltip-pending-removal {
+  position: absolute;
+  pointer-events: none;
+}
+
+
+
 
 

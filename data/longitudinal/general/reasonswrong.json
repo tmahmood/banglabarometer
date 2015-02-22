@@ -1,0 +1,302 @@
+[
+    {
+        "key": "Political Conflicts",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 70
+            },
+            {
+                "label": "Jul 2013",
+                "value": 66
+            },
+            {
+                "label": "Oct 2013",
+                "value": 60
+            },
+            {
+                "label": "Nov 2013",
+                "value": 82
+            },
+            {
+                "label": "Jan 2014",
+                "value": 89
+            }
+        ]
+    },
+    {
+        "key": "Too Many Hartals",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 74
+            },
+            {
+                "label": "Jul 2013",
+                "value": 35
+            },
+            {
+                "label": "Oct 2013",
+                "value": 27
+            },
+            {
+                "label": "Nov 2013",
+                "value": 57
+            },
+            {
+                "label": "Jan 2014",
+                "value": 66
+            }
+        ]
+    },
+    {
+        "key": "Price Hikes",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 29
+            },
+            {
+                "label": "Jul 2013",
+                "value": 41
+            },
+            {
+                "label": "Oct 2013",
+                "value": 51
+            },
+            {
+                "label": "Nov 2013",
+                "value": 54
+            },
+            {
+                "label": "Jan 2014",
+                "value": 39
+            }
+        ]
+    },
+    {
+        "key": "Weak Law & Order",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 18
+            },
+            {
+                "label": "Jul 2013",
+                "value": 17
+            },
+            {
+                "label": "Oct 2013",
+                "value": 27
+            },
+            {
+                "label": "Nov 2013",
+                "value": 27
+            },
+            {
+                "label": "Jan 2014",
+                "value": 29
+            }
+        ]
+    },
+    {
+        "key": "Low Security",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 8
+            },
+            {
+                "label": "Jul 2013",
+                "value": 9
+            },
+            {
+                "label": "Oct 2013",
+                "value": 12
+            },
+            {
+                "label": "Nov 2013",
+                "value": 10
+            },
+            {
+                "label": "Jan 2014",
+                "value": 20
+            }
+        ]
+    },
+    {
+        "key": "Govt Attacks on Opposition",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 6
+            },
+            {
+                "label": "Jul 2013",
+                "value": 7
+            },
+            {
+                "label": "Oct 2013",
+                "value": 9
+            },
+            {
+                "label": "Nov 2013",
+                "value": 13
+            },
+            {
+                "label": "Jan 2014",
+                "value": 18
+            }
+        ]
+    },
+    {
+        "key": "Hard to Get Job / Income",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 3
+            },
+            {
+                "label": "Jul 2013",
+                "value": 13
+            },
+            {
+                "label": "Oct 2013",
+                "value": 15
+            },
+            {
+                "label": "Nov 2013",
+                "value": 13
+            },
+            {
+                "label": "Jan 2014",
+                "value": 16
+            }
+        ]
+    },
+    {
+        "key": "Opposition Tough Agitation",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": null
+            },
+            {
+                "label": "Jul 2013",
+                "value": null
+            },
+            {
+                "label": "Oct 2013",
+                "value": null
+            },
+            {
+                "label": "Nov 2013",
+                "value": 10
+            },
+            {
+                "label": "Jan 2014",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "key": "Corruption",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 7
+            },
+            {
+                "label": "Jul 2013",
+                "value": 20
+            },
+            {
+                "label": "Oct 2013",
+                "value": 24
+            },
+            {
+                "label": "Nov 2013",
+                "value": 12
+            },
+            {
+                "label": "Jan 2014",
+                "value": 9
+            }
+        ]
+    },
+    {
+        "key": "Power / Energy Crisis",
+        "values": [
+            {
+                "label": "Apr 2013",
+                "value": 4
+            },
+            {
+                "label": "Jul 2013",
+                "value": 13
+            },
+            {
+                "label": "Oct 2013",
+                "value": 11
+            },
+            {
+                "label": "Nov 2013",
+                "value": 2
+            },
+            {
+                "label": "Jan 2014",
+                "value": 4
+            }
+        ]
+        },
+        {
+        "key": "War Crimes Trial",
+        "values": [
+                    {
+                        "label": "Apr 2013",
+                        "value": 6
+                    },
+                    {
+                        "label": "Jul 2013",
+                        "value": 5
+                    },
+                    {
+                        "label": "Oct 2013",
+                        "value": 4
+                    },
+                    {
+                        "label": "Nov 2013",
+                        "value": 1
+                    },
+                    {
+                        "label": "Jan 2014",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "key": "Insecurity of RMG Workers",
+                "values": [
+                    {
+                        "label": "Apr 2013",
+                        "value": null
+                    },
+                    {
+                        "label": "Jul 2013",
+                        "value": 5
+                    },
+                    {
+                        "label": "Oct 2013",
+                        "value": 8
+                    },
+                    {
+                        "label": "Nov 2013",
+                        "value": 1
+                    },
+                    {
+                        "label": "Jan 2014",
+                        "value": 2
+                    }
+                ]
+            }
+        ]
