@@ -3,15 +3,15 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: banglabarometer
+#url:
+name: Bangladesh Barometer
 description: an open-source platform for visualizing Democracy International public opinion research data in Bangladesh
 author:
   name: mbaldassaro
   email: mbaldassaro@gmail.com
 
 # Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
-          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+exclude: ['.gif', '**.webp']
 
 include: ['.htaccess']
 
