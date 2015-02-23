@@ -55,7 +55,7 @@ d3.json("data/longitudinal/electoral/voterpreference.json", function(error, data
 
      chart.xAxis
         .margin({right: 50})
-        .tickValues([1338587272000,1354233600000,1359590400000,1367280000000,1375228800000,1383264000000,1385769600000,1391126400000]) 
+        .tickValues([1338587272000,1354233600000,1359590400000,1367280000000,1375228800000,1381812852000,1385769600000,1391126400000, 1410756852000, 1421297652000]) 
         .tickFormat(function(d) {
             return d3.time.format('%m/%y')(new Date(d))
           });

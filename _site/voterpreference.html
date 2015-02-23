@@ -57,7 +57,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="home.html" style="color:#afafaf;">  Bangladesh Barometer</a>
+                <!--<img src="img/flag.png" style="height: 45; width:30px;" />--><a class="navbar-brand" href="home.html" style="color:#afafaf;"> Bangladesh Barometer</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -111,7 +111,7 @@
                <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                        
-                        <li><a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Latest Survey<span class="fa fa-caret-left"></span></a>
+                       <li><a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Latest Survey<span class="fa fa-caret-left"></span></a>
                             <ul class="nav nav-second-level">
                         <li><a href="#"><i class="fa fa-globe fa-fw"></i> General <span class="fa fa-caret-left"></span></a>
                             <ul class="nav nav-second-level">
@@ -128,6 +128,14 @@
                                 <li><a href="#">Example 3</a></li>
                             </ul>    
                         </li>
+
+                        <li><a href="#"><i class="fa fa-money fa-fw"></i> Economic <span class="fa fa-caret-left"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a href="#">Example 1</a></li>
+                                <li><a href="#">Example 2</a></li>
+                                <li><a href="#">Example 3</a></li>
+                            </ul>    
+                        </li>      
 
                         <li><a href="#"><i class="fa fa-archive fa-fw"></i> Electoral <span class="fa fa-caret-left"></span></a>
                             <ul class="nav nav-second-level">
@@ -146,10 +154,9 @@
                         </li>
                     </ul>
                 </li> 
-
-
                         <li><a href="#"><i class="fa fa-line-chart fa-fw"></i> Longitudinal Trends<span class="fa fa-caret-left"></span></a>   
-                            <ul class="nav nav-second-level">          
+                            <ul class="nav nav-second-level">              
+                         
                         <li><a href="#"><i class="fa fa-globe fa-fw"></i> General <span class="fa fa-caret-left"></span></a>
                             <ul class="nav nav-second-level">
                                 <li><a href="rightwrong.html">Right or Wrong Direction</a></li>
@@ -158,22 +165,20 @@
                                 <li><a href="mainproblems.html">Problems Facing Bangladesh</a></li>
                             </ul>    
                         </li>
-                         
+
                         <li><a href="#"><i class="fa fa-tachometer fa-fw"></i> Political <span class="fa fa-caret-left"></span></a>
                             <ul class="nav nav-second-level">
                                 <li><a href="#">Perceptions of Political Leaders</a></li>
+                            </ul>    
+                        </li>
+
+                        <li><a href="#"><i class="fa fa-money fa-fw"></i> Economic <span class="fa fa-caret-left"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a href="#">Example 1</a></li>
                                 <li><a href="#">Example 2</a></li>
                                 <li><a href="#">Example 3</a></li>
                             </ul>    
-                        </li>
-                        
-                        <li><a href="#"><i class="fa fa-archive fa-fw"></i> Electoral <span class="fa fa-caret-left"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li><a href="voterpreference.html">Vote if Elections Were Today</a></li>
-                                <li><a href="#">Voter Retention Since 2008</a></li>
-                                <li><a href="#">Example 3</a></li>
-                            </ul>    
-                        </li>            
+                        </li>       
 
                          <li><a href="#"><i class="fa fa-newspaper-o fa-fw"></i> Media <span class="fa fa-caret-left"></span></a>
                             <ul class="nav nav-second-level">
@@ -184,13 +189,18 @@
                         </li>
                     </ul>
                 </li>
+
+                 <li><a href="#"><i class="fa fa-archive fa-fw"></i> Electoral <span class="fa fa-caret-left"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a href="voterpreference.html">Vote if Elections Were Today</a></li>
+                                <!--<li><a href="#">Voter Retention Since 2008</a></li>-->
+                            </ul>    
+                        </li>          
+
                
             </ul>    
         </div> 
     </div> 
-
-               
-      
 <style>
     svg {
         height: 500;
@@ -248,7 +258,7 @@ d3.json("data/longitudinal/electoral/voterpreference.json", function(error, data
 
      chart.xAxis
         .margin({right: 50})
-        .tickValues([1338587272000,1354233600000,1359590400000,1367280000000,1375228800000,1383264000000,1385769600000,1391126400000]) 
+        .tickValues([1338587272000,1354233600000,1359590400000,1367280000000,1375228800000,1381812852000,1385769600000,1391126400000, 1410756852000, 1421297652000]) 
         .tickFormat(function(d) {
             return d3.time.format('%m/%y')(new Date(d))
           });

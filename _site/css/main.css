@@ -79,7 +79,7 @@ b, strong {
     top: 0;
     left: -1000px;
     background-color: #005288;
-    opacity: 0.75;
+    opacity: 0.8;
     color: #afafaf;
     font-weight: 100; 
     padding: 5px; 
@@ -211,7 +211,7 @@ b, strong {
 .navbar-static-top {
     border-width: 0 0 0px;
     background-color: #005288;
-    opacity: 0.75;
+    opacity: 0.8;
     margin-left: 30px;
 }
 
@@ -222,8 +222,10 @@ b, strong {
     color: #e7e7e7;
 }
 
-.sidebar .sidebar-search {
-    padding: 15px;
+.nav>li>a:focus, .nav>li>a:hover {
+text-decoration: none;
+background-color: #002588;
+color: #afafaf;
 }
 
 .sidebar ul li a:hover {
@@ -271,7 +273,7 @@ b, strong {
         width: 250px;
         margin-top: 0px;
         margin-left: 30px;
-        opacity: 0.75;
+        opacity: 0.8;
     }
 
 #logo-brand {

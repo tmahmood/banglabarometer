@@ -157,11 +157,18 @@
                         <li><a href="#"><i class="fa fa-line-chart fa-fw"></i> Longitudinal Trends<span class="fa fa-caret-left"></span></a>   
                             <ul class="nav nav-second-level">              
                          
+                        <li><a href="#"><i class="fa fa-globe fa-fw"></i> General <span class="fa fa-caret-left"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a href="rightwrong.html">Right or Wrong Direction</a></li>
+                                <li><a href="reasonsright.html">Reasons for Right Direction</a></li>
+                                <li><a href="reasonswrong.html">Reasons for Wrong Direction</a></li>
+                                <li><a href="mainproblems.html">Problems Facing Bangladesh</a></li>
+                            </ul>    
+                        </li>
+
                         <li><a href="#"><i class="fa fa-tachometer fa-fw"></i> Political <span class="fa fa-caret-left"></span></a>
                             <ul class="nav nav-second-level">
                                 <li><a href="#">Perceptions of Political Leaders</a></li>
-                                <li><a href="#">Example 2</a></li>
-                                <li><a href="#">Example 3</a></li>
                             </ul>    
                         </li>
 
@@ -171,14 +178,7 @@
                                 <li><a href="#">Example 2</a></li>
                                 <li><a href="#">Example 3</a></li>
                             </ul>    
-                        </li>
-                        
-                        <li><a href="#"><i class="fa fa-archive fa-fw"></i> Electoral <span class="fa fa-caret-left"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li><a href="voterpreference.html">Vote if Elections Were Today</a></li>
-                                <!--<li><a href="#">Voter Retention Since 2008</a></li>-->
-                            </ul>    
-                        </li>            
+                        </li>       
 
                          <li><a href="#"><i class="fa fa-newspaper-o fa-fw"></i> Media <span class="fa fa-caret-left"></span></a>
                             <ul class="nav nav-second-level">
@@ -190,21 +190,20 @@
                     </ul>
                 </li>
 
-                    <li><a href="#"><i class="fa fa-globe fa-fw"></i> General <span class="fa fa-caret-left"></span></a>
+                 <li><a href="#"><i class="fa fa-archive fa-fw"></i> Electoral <span class="fa fa-caret-left"></span></a>
                             <ul class="nav nav-second-level">
-                                <li><a href="rightwrong.html">Right or Wrong Direction</a></li>
-                                <li><a href="reasonsright.html">Reasons for Right Direction</a></li>
-                                <li><a href="reasonswrong.html">Reasons for Wrong Direction</a></li>
-                                <li><a href="mainproblems.html">Problems Facing Bangladesh</a></li>
+                                <li><a href="voterpreference.html">Vote if Elections Were Today</a></li>
+                                <!--<li><a href="#">Voter Retention Since 2008</a></li>-->
                             </ul>    
-                        </li>
+                        </li>          
+
                
             </ul>    
         </div> 
     </div> 
 <style>
     svg {
-        height: 500;
+        height: 550;
         width: 1000;
     }
 </style>
@@ -214,7 +213,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     
-                    <h1 class="page-header"><strong>Is Bangladesh Heading in the Right or Wrong Direction?</strong></h1>
+                    <h1 class="page-header"><strong>Voter Support Retained &amp; Lost from 2008 Elections</strong></h1>
 
                 </div>
             </div>
@@ -242,41 +241,43 @@
 
 <script>
 
-d3.json("data/longitudinal/general/rightwrong.json", function(error, data) {
+d3.json("data/longitudinal/electoral/voterretention.json", function(error, data) {
 
-    var width = 920; 
+ var chart;
+    
+nv.addGraph(function() {
+  var chart = nv.models.multiBarChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value / 100 })
+      //.margin({left: 100})
+      /*.tooltipContent(function(key, x, y, e, graph) {
+        return '<h5 style="text-align:center; padding:0px; color:#000; font-weight: 700">' + key + " (" + x + ")</h5><h4 style='text-align: center; color: #000; font-weight: 700;'>" + y + '</h5>'
+    });*/
 
-  nv.addGraph(function() {
-    var chart = nv.models.lineChart()
-                  .x(function(d) { return d[0] })
-                  .y(function(d) { return d[1]/100 }) //adjusting, 100% is 1.00, not 100 as it is in the data
-                  //.color(d3.scale.category10().range())
-                  
-                  .duration(1200)
-                  //.width(width)
-                  .useInteractiveGuideline(true);
-             
+      
+        //.showValues(false)
+        .tooltips(true)
+        //.barColor(d3.scale.category20().range())
+        //.stacked(true)
+        //.showControls(false);
 
-     chart.xAxis
-        .margin({right: 50})
-        .tickValues([1354286240000,1364740640000,1367332640000,1375281440000,1383230240000,1385822240000,1391179040000, 1400130616000, 1402809016000, 1408079416000, 1410757816000, 1418620216000, 1423977016000]) 
-        .tickFormat(function(d) {
-            return d3.time.format('%m/%y')(new Date(d))
-          });
+  chart.yAxis 
+    .tickFormat(d3.format('%'));
+  //chart.xAxis
+    //.tickFormat(d3.format('d'));
 
-    chart.yAxis
-        .tickFormat(d3.format('%'));
+  d3.select('#chart')
+      .datum(data)
+      .transition().duration(1200)
+      .call(chart);
 
-    d3.select('#chart')
-        .datum(data)
-        .transition().duration(1200)
-        .call(chart);
+  nv.utils.windowResize(chart.update);
 
-    nv.utils.windowResize(chart.update);
+  chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
 
-    return chart;
-  })
-  });
+  return chart;
+})
+});
 
 
 </script>

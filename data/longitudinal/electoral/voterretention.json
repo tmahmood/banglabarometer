@@ -1,0 +1,139 @@
+
+[
+  {
+    "key": "Awami League - Support Retained",
+    "color": "green",
+    "values": [
+      { 
+        "label" : "Nov 12" ,
+        "value" : 51
+      } , 
+      { 
+        "label" : "Jan 13" ,
+        "value" : 48
+      } , 
+      { 
+        "label" : "Apr 13" ,
+        "value" : 49
+      } , 
+      { 
+        "label" : "Jul 13" ,
+        "value" : 55
+      } , 
+      {
+        "label" : "Oct 13" ,
+        "value" : 69
+      } , 
+      { 
+        "label" : "Nov 13" ,
+        "value" : 58
+      } , 
+      { 
+        "label" : "Jan 14" ,
+        "value" : 73
+      } 
+    ]
+  },
+  {
+    "key": "Awami League - Support Lost",
+    "color": "#a4eaa4",
+    "values": [
+      { 
+        "label" : "Nov 12" ,
+        "value" : -43
+      } , 
+      { 
+        "label" : "Jan 13" ,
+        "value" : -51
+      } , 
+      { 
+        "label" : "Apr 13" ,
+        "value" : -51
+      } , 
+      { 
+        "label" : "Jul 13" ,
+        "value" : -44
+      } , 
+      {
+        "label" : "Oct 13" ,
+        "value" : -30
+      } , 
+      { 
+        "label" : "Nov 13" ,
+        "value" : -38
+      } , 
+      { 
+        "label" : "Jan 14" ,
+        "value" : -24
+      } 
+    ]
+  },
+    {
+    "key": "BNP - Support Retained",
+    "color": "#800000",
+    "values": [
+      { 
+        "label" : "Nov 12" ,
+        "value" : 70
+      } , 
+      { 
+        "label" : "Jan 13" ,
+        "value" : 77
+      } , 
+      { 
+        "label" : "Apr 13" ,
+        "value" : 83
+      } , 
+      { 
+        "label" : "Jul 13" ,
+        "value" : 89
+      } , 
+      {
+        "label" : "Oct 13" ,
+        "value" : 88
+      } , 
+      { 
+        "label" : "Nov 13" ,
+        "value" : 83
+      } , 
+      { 
+        "label" : "Jan 14" ,
+        "value" : 88
+      } 
+    ]
+  },
+  {
+    "key": "BNP - Support Lost",
+    "color": "#bc8f8f",
+    "values": [
+      { 
+        "label" : "Nov 12" ,
+        "value" : -26
+      } , 
+      { 
+        "label" : "Jan 13" ,
+        "value" : -22
+      } , 
+      { 
+        "label" : "Apr 13" ,
+        "value" : -16
+      } , 
+      { 
+        "label" : "Jul 13" ,
+        "value" : -11
+      } , 
+      {
+        "label" : "Oct 13" ,
+        "value" : -12
+      } , 
+      { 
+        "label" : "Nov 13" ,
+        "value" : -14
+      } , 
+      { 
+        "label" : "Jan 14" ,
+        "value" : -11
+      } 
+]
+}
+]
