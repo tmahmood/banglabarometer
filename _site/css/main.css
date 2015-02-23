@@ -104,7 +104,7 @@ b, strong {
 }
 
 .navbar-header {
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 .navbar-top-links li {
@@ -124,7 +124,7 @@ b, strong {
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
   background-color: #005288/*#000*/;
-  color: #afafaf;
+  color: #efefef;
 }
 
 #navhover:hover {
@@ -212,6 +212,7 @@ b, strong {
     border-width: 0 0 0px;
     background-color: #005288;
     opacity: 0.75;
+    margin-left: 30px;
 }
 
 .sidebar .sidebar-nav.navbar-collapse {
