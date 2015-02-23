@@ -222,8 +222,10 @@ b, strong {
     color: #e7e7e7;
 }
 
-.sidebar .sidebar-search {
-    padding: 15px;
+.nav>li>a:focus, .nav>li>a:hover {
+text-decoration: none;
+background-color: #002588;
+color: #afafaf;
 }
 
 .sidebar ul li a:hover {
