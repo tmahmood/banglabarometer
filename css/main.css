@@ -151,8 +151,12 @@ b, strong {
 .bigtext {
   color: #dfdfdf;
   font-weight: 400;
-  line-height: 1.2em;
+  font-size: 1.1em;
+  line-height: 1.4em;
   z-index: 100000;
+  max-height: 520px;
+  overflow: auto;
+  padding: 1em;
 }
 
 .bigtext b {
@@ -170,7 +174,6 @@ b, strong {
 }
 
 .navbar-top-links .dropdown-menu li {
-    display: block;
 }
 
 .navbar-top-links .dropdown-menu li:last-child {
@@ -199,7 +202,7 @@ b, strong {
 
 .navbar-top-links .dropdown-messages
  {
-  width: 500px;
+  width: 600px;
   min-width: 520px;
   min-height: 320px;
   background-color: #005288/*#000*/;
@@ -207,16 +210,15 @@ b, strong {
 }
 
 .navbar-top-links .dropdown-tasks {
-  width: 600px;
-  min-width: 100;
-  min-height: 200;
-  height: 380px;
-  background-color: #005288/*#000*/;
-  margin: 0px -45.5;
+	width: 600px;
+	min-width: 520px;
+	min-height: 320px;
+	background-color: #005288/*#000*/;
+	margin: 0px -45.5;
 }
 
 .navbar-top-links .dropdown-alerts {
-    width: 260px;
+    width: 600px;
     min-width: 0;
     min-height: 0;
     height: 215px;
@@ -422,6 +424,22 @@ color: #afafaf;
 }
 
 
+.justified {
+	text-align: justify;
+}
+.disclaimer {
+	color: #555;
+	text-align: center;
+	font-weight: bold;
+}
 
+.sharemenu {
+}
 
+.page-header {
+	text-align: center;
+}
 
+.nvd3-svg {
+	width: 100%;
+}
