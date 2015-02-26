@@ -46,13 +46,5 @@ $(function() {
 =            CUSTOM FUNCTIONS            =
 ========================================*/
 function toggleNav() {
-    if ($('#menu-wrapper').hasClass('show-nav')) {
-        // Do things on Nav Close
-        $('#menu-wrapper').removeClass('show-nav');
-    } else {
-        // Do things on Nav Open
-        $('#menu-wrapper').addClass('show-nav');
-    }
-
-    //$('#wrapper').toggleClass('show-nav');
+	$('#site-menu').toggle('fade');
 }
