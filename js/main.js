@@ -1,7 +1,9 @@
 $(function() {
 
     $('#side-menu').metisMenu();
-
+	if (page_graph_data != undefined) {
+		graphcore.drawChart(page_graph_data());
+	}
 });
 
 //Loads the correct sidebar on window load,
