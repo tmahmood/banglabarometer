@@ -13,6 +13,7 @@ GraphCore.prototype.drawChart = function(cfg) {
 	  gp.addData(cfg.values);
 	  gp.draw();
 	  $('#page-header strong').empty().append(gp.title);
+	  $('#page-header').next().empty().append(gp.info);
 	  $('#site-menu h4').empty().append(gp.explanation.heading);
 	  $('#site-menu p').empty().append(gp.explanation.text);
 };
