@@ -9,11 +9,11 @@ GraphCore.prototype.drawChart = function(cfg) {
 	  var gp = new window[cfg.type]();
 	  gp.set('container', '#highchart_graph');
 	  gp.title = cfg.key;
+	  gp.info = cfg.info;
 	  gp.explanation = cfg.explanation;
 	  gp.addData(cfg.values);
 	  gp.draw();
 	  $('#page-header strong').empty().append(gp.title);
-	  $('#page-header').next().empty().append(gp.info);
 	  $('#site-menu h4').empty().append(gp.explanation.heading);
 	  $('#site-menu p').empty().append(gp.explanation.text);
 };
@@ -44,8 +44,7 @@ DiscretBar.prototype.draw = function() {
         chart: {
             backgroundColor: '#FBFBFB',
 			type: 'column' },
-        title: { text: me.title },
-        subtitle: { text: me.subtitle },
+        title: { text: me.info },
         xAxis: { type: 'category' },
         yAxis: { min: 0, title: { text: 'Percent' } },
 		legend: { enabled: false },
@@ -101,8 +100,6 @@ Pie.prototype.draw = function() {
 		credits: {
 			enabled: false,
 		},
-        title: { text: me.title },
-		subtitle: { text: me.subtitle },
         tooltip: { pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>' },
         plotOptions: {
             pie: {
@@ -153,7 +150,7 @@ SimpleLine.prototype.draw = function() {
 		chart: {
             backgroundColor: '#FBFBFB',
 		},
-		title: { text: me.title },
+		title: { text: me.info },
 		subtitle: { text: me.subtitle },
 		xAxis: {
 			type: 'datetime',
@@ -201,8 +198,7 @@ GroupedMultiBar.prototype.draw = function() {
             backgroundColor: '#FBFBFB',
             type: 'column'
         },
-        title: { text: me.title },
-        subtitle: { text: me.subtitle },
+        title: { text: me.info },
         xAxis: {
             categories: me.categories
         },
