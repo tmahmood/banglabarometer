@@ -1,0 +1,50 @@
+	<script>
+		var page_graph_data = function() {
+			return {
+				type: 'GroupedMultiBar',
+				key: "By area - Would you say that you are mostly OPTIMISTIC or PESSIMISTIC about the future of Bangladesh?",
+				info: "Dec 2014 / MoE : ±2.5% / No of participants: 1500",
+				explanation: {
+					heading: "Explain the graph",
+					text: "We explain the graph here for your understanding"
+				},
+				container: '#chart',
+				values:  {
+    "categories": [
+        "Urban", 
+        "Rural"
+    ], 
+    "data": [
+        {
+            "data": [
+                1.3, 
+                1.0
+            ], 
+            "name": "Don't know /Unsure"
+        }, 
+        {
+            "data": [
+                3.0, 
+                2.8
+            ], 
+            "name": "Neither optimistic nor pessimistic"
+        }, 
+        {
+            "data": [
+                46.6, 
+                62.6
+            ], 
+            "name": "Optimistic"
+        }, 
+        {
+            "data": [
+                49.1, 
+                33.5
+            ], 
+            "name": "Pessimistic"
+        }
+    ]
+}
+			};
+	}
+	</script>

@@ -1,0 +1,50 @@
+	<script>
+		var page_graph_data = function() {
+			return {
+				type: 'GroupedMultiBar',
+				key: "By Area - Do most people in the area where you live feel free to express their opinions about the current political situation or not?",
+				info: "Dec 2014 / MoE : ±2.5% / No of participants: 1500",
+				explanation: {
+					heading: "Explain the graph",
+					text: "We explain the graph here for your understanding"
+				},
+				container: '#chart',
+				values:  {
+    "categories": [
+        "Rural", 
+        "Urban"
+    ], 
+    "data": [
+        {
+            "data": [
+                5.9, 
+                8.1
+            ], 
+            "name": "Don't know /Unsure"
+        }, 
+        {
+            "data": [
+                50.6, 
+                64.3
+            ], 
+            "name": "No do not feel free"
+        }, 
+        {
+            "data": [
+                0.9, 
+                0.4
+            ], 
+            "name": "Refused"
+        }, 
+        {
+            "data": [
+                42.6, 
+                27.2
+            ], 
+            "name": "Yes feel free"
+        }
+    ]
+}
+			};
+	}
+	</script>
