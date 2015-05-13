@@ -10,6 +10,7 @@ body {
     background-size: auto;
     background-repeat: no-repeat;
     position: absolute;
+	background-color: #f9f7f6;
     top: 0;
     left: 0;
     z-index: 70;
@@ -101,7 +102,7 @@ b, strong {
 @media(min-width:768px) {
     #page-wrapper {
         position: inherit;
-        margin: 0 0 0 280px;
+        margin: 0 0 0 320px;
         padding: 0 30px;
         border-left: 1px solid #e7e7e7;
     }
@@ -446,4 +447,16 @@ color: #afafaf;
 
 .nvd3-svg {
 	width: 100%;
+}
+
+.submenu
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: .8em !important;
+}
+
+.submenu:before {
+	margin-right: .5em;
+	content: '►';
 }

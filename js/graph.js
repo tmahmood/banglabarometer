@@ -42,7 +42,7 @@ DiscretBar.prototype.draw = function() {
 
     $(me.container).highcharts({
         chart: {
-            backgroundColor: '#FBFBFB',
+            backgroundColor: '#f9f7f6',
 			type: 'column' },
         title: { text: me.info },
         xAxis: { type: 'category' },
@@ -148,7 +148,7 @@ SimpleLine.prototype.draw = function() {
 	var me = this;
 	$(me.container).highcharts({
 		chart: {
-            backgroundColor: '#FBFBFB',
+            backgroundColor: '#f9f7f6',
 		},
 		title: { text: me.info },
 		subtitle: { text: me.subtitle },
@@ -195,7 +195,7 @@ GroupedMultiBar.prototype.draw = function() {
 	var me = this;
     $(me.container).highcharts({
         chart: {
-            backgroundColor: '#FBFBFB',
+            backgroundColor: '#f9f7f6',
             type: 'column'
         },
         title: { text: me.info },
