@@ -154,9 +154,18 @@ SimpleLine.prototype.draw = function() {
 		subtitle: { text: me.subtitle },
 		xAxis: {
 			type: 'datetime',
-			title: { text: me.xtext }
+			title: { text: me.xtext },
+			gridLineWidth: 1,
+			dateTimeLabelFormats: { // don't display the dummy year
+                month: '%b, %Y',
+                year: '%Y'
+            }
 		},
-		yAxis: { title: { text: me.ytext }, min: 0 },
+		yAxis: {
+			title: { text: me.ytext },
+			min: 0,
+            gridLineWidth: 1,
+		},
 		plotOptions: {
 			spline: {
 				marker: {
@@ -164,6 +173,10 @@ SimpleLine.prototype.draw = function() {
 				}
 			}
 		},
+        tooltip: {
+            headerFormat: '<b>{series.name}</b><br>',
+            pointFormat: '{point.x:%e. %b, %Y}: {point.y:.2f}%'
+        },
 		series: me.series
 	});
 };
